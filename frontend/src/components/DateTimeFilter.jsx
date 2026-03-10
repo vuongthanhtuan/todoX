@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Check, ChevronsUpDown } from "lucide-react";
-import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils.js";
+import { Button } from "@/components/ui/button.jsx";
 import {
   Command,
   CommandEmpty,
@@ -9,9 +9,9 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/components/ui/command";
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-import { options } from "@/lib/data";
+} from "@/components/ui/command.jsx";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover.jsx";
+import { options } from "@/lib/data.js";
 
 const DateTimeFilter = ({ dateQuery, setDateQuery }) => {
   const [open, setOpen] = React.useState(false);

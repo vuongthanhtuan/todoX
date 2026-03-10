@@ -6,8 +6,8 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@/components/ui/pagination";
-import { cn } from "@/lib/utils";
+} from "@/components/ui/pagination.jsx";
+import { cn } from "@/lib/utils.js";
 
 const TaskListPagination = ({
   handleNext,
