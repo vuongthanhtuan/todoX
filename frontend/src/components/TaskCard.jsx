@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { Card } from "./ui/card";
-import { cn } from "@/lib/utils";
-import { Button } from "./ui/button";
+import { Card } from "./ui/card.jsx";
+import { cn } from "@/lib/utils.js";
+import { Button } from "./ui/button.jsx";
 import { Calendar, CheckCircle2, Circle, SquarePen, Trash2 } from "lucide-react";
-import { Input } from "./ui/input";
-import api from "@/lib/axios";
+import { Input } from "./ui/input.jsx";
+import api from "@/lib/axios.js";
 import { toast } from "sonner";
 
 const TaskCard = ({ task, index, handleTaskChanged }) => {
